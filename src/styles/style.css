@@ -63,6 +63,19 @@ header{
     font-size: var(--font-size-button);
     font-family: var(--font-body);
     padding: 10px 15px;
+}
 
+main{
+    background-color: var(--color-black);
+    background-image: url(../assets/images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
+    height: 80vh;    
+}
+h1{
+    color: var(--color-foreground);
+    font-size: var(--font-size-h1);
+    font-family: var(--font-tittle);
+    width: 492px;
 }
