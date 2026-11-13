@@ -1,51 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-bt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./src/styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div class="header-navigation">
-            <a href=""><img src="./src/assets/images/logo.svg" alt="GoldPlay"></a>
-            <nav aria-label="Navegação Principal">
-                
-                <ul class="itens-navigations">
-                    <li><a href="">Início</a></li>
-                    <li><a href="">Gêneros</a></li>
-                    <li><a href="">Planos</a></li>
-                    <li><a href="">Catálogos</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="header-navigation">
+        <a href=""><img src="./src/assets/images/logo.svg" alt="GoldPlay" /></a>
+        <nav aria-label="Navegação Principal">
+          <ul class="itens-navigations">
+            <li><a href="">Início</a></li>
+            <li><a href="">Gêneros</a></li>
+            <li><a href="">Planos</a></li>
+            <li><a href="">Catálogos</a></li>
+          </ul>
+        </nav>
+      </div>
 
-        <div class="container-search">
-            <form>
-                <input type="text" placeholder="Pesquisar">
-                
-                <button aria-label="Pesquisar">
-                    <img src="./src/assets/images/search.svg" alt="Pesquisar">
-                </button>
-            </form>
-            <nav>
-                <a href="" class="btn-header">Entrar</a>
-            </nav>
-        </div>
+      <div class="container-search">
+        <form>
+          <input type="text" placeholder="Pesquisar" />
+
+          <button aria-label="Pesquisar">
+            <img src="./src/assets/images/search.svg" alt="Pesquisar" />
+          </button>
+        </form>
+        <nav>
+          <a href="" class="btn-header">Entrar</a>
+        </nav>
+      </div>
     </header>
     <main>
-        <h1>Todo o entretenimento em um <span>único lugar</span></h1>
-        <p>Lorem ipsum dolor sit amet consectetur</p>
-        <nav>
-            <a class="btn-primary" href="">Começar agora</a>
-            <a class="btn-outline" href="">Conheça a plataforma</a>
-        </nav>
+      <h1>Todo o entretenimento em um <span>único lugar</span></h1>
+      <p>Lorem ipsum dolor sit amet consectetur</p>
+      <nav>
+        <a class="btn-primary" href="">Começar agora</a>
+        <a class="btn-outline" href="">Conheça a plataforma</a>
+      </nav>
     </main>
+    <section class="section-genre">
+      <div>
+        <h2>Gêneros <span>Sugeridos</span></h2>
 
-</body>
+        <div class="container-genre">
+          <div class="card-genre">
+            <img
+              src="./src/assets/images/terrorMinions.svg"
+              alt="Ilustração do genero Terror"
+              loading="lazy"/>
+
+            <div class="details-genre">
+              <h3>TERROR</h3>
+              <p>Magia e fantasia animada</p>
+            </div>
+          </div>
+
+          <div class="card-genre">
+            <img
+              src="./src/assets/images/fictionMinions.svg"
+              alt="Ilustração do genero Ficção Cientifica"
+              loading="lazy"/>
+
+            <div class="details-genre">
+              <h3>Ficção Científica</h3>
+              <p>Futuro e espaço</p>
+            </div>
+          </div>
+          <div class="card-genre">
+            <img
+              src="./src/assets/images/adventureMinions.svg"
+              alt="Ilustração do genero Aventura"
+              loading="lazy"/>
+
+            <div class="details-genre">
+              <h3>AVENTURA</h3>
+              <p>Exploração e complicações</p>
+            </div>
+          </div>
+          <div class="card-genre">
+            <img
+              src="./src/assets/images/actionMinions.svg"
+              alt="Ilustração do genero Ação"
+              loading="lazy"
+            />
+            <div class="details-genre">
+              <h3>AÇÃO</h3>
+              <p>Histórias de ação</p>
+            </div>
+          </div>
+
+          <div class="card-genre">
+            <img
+              src="./src/assets/images/animationMinions.svg"
+              alt="Ilustração do genero Animação"
+              loading="lazy"
+            />
+            <div class="details-genre">
+              <h3>ANIMAÇÃO</h3>
+              <p>Magia e fantasia animada</p>
+            </div>
+          </div>
+          <div class="card-genre">
+            <img
+              src="./src/assets/images/animeMinions.svg"
+              alt="Ilustração do genero Anime"
+              loading="lazy"
+            />
+            <div class="details-genre">
+              <h3>ANIME</h3>
+              <p>Desenhos orientais.</p>
+            </div>
+          </div>
+          <div class="card-genre">
+            <img
+              src="./src/assets/images/romanceMinions.svg"
+              alt="Ilustração do genero Romance"
+              loading="lazy"
+            />
+            <div class="details-genre">
+              <h3>ROMANCE</h3>
+              <p>Histórias de amor de paixão</p>
+            </div>
+          </div>
+          <div class="card-genre">
+            <img
+              src="./src/assets/images/docsMinions.svg"
+              alt="Ilustração do genero Documentário"
+              loading="lazy"/>
+
+            <div class="details-genre">
+              <h3>DOCUMENTÁRIO</h3>
+              <p>Casos reais e biografias</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

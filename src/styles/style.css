@@ -1,6 +1,33 @@
 @import url(./global.css);
+:root{
+    --color-brand: #F5B700;
+    --color-foreground: #F9F9F9;
+    --color-black: #1A1A1A;
+    --color-gray: #2A2A2A;
+    --color-surface: #2A2A35;
+
+    --font-size-h1: 64px;
+    --font-size-h2: 35px;
+    --font-size-h3: 30px;
+    --font-size-h4: 25px;
+    --font-size-h5: 20px;
+    --font-size-body: 16px;
+    --font-size-caption: 14px;
+    --font-size-button: 16px bold;
+
+    --font-title: "Bebas Neue", sans-serif;
+    --font-body: "Inter", sans-serif;
+    --size-5: 5px;
+      
+}
+
+
+
+
 
 /* -------  header  -------- */
+
+
 
 
 header{
@@ -114,4 +141,55 @@ main nav{
 .btn-outline{
     border: var(--color-brand) solid 1px;
     color: var(--color-brand);
+}
+
+/* ========== Sections genres =============== */
+
+.section-genre{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    background-color: var(--color-black);
+}
+
+.section-genre > div{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.section-genre h2{
+    font-family: var(--font-title);
+    font-size: var( --font-size-h2);
+    color: var(--color-foreground);
+    font-weight: 400;
+}
+.section-genre h2 span{
+    color: var(--color-brand);
+}
+
+.card-genre{
+    color: var(--color-foreground);
+    position: relative;
+}
+.details-genre{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    color: var(--color-foreground);
+
+}
+.details-genre h3{
+    font-family: var(--font-title);
+    font-size: var(--font-size-h3);
+    font-weight: 400;    
+}
+.details-genre p{
+    font-family: var(--font-body);
+    font-size: var(--font-size-body);
+}
+
+.container-genre{
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    gap:20px;
 }
