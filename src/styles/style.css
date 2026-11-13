@@ -148,7 +148,7 @@ main nav{
 .section-genre{
     display: flex;
     justify-content: center;
-    padding: 60px 0;
+    padding: 60px 0px;
     background-color: var(--color-black);
 }
 
@@ -191,5 +191,32 @@ main nav{
 .container-genre{
     display: grid;
     grid-template-columns: repeat(4, max-content);
+    gap:20px;
+}
+
+.section-movie{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+    background-color: var(--color-black);
+}
+.section-movie > div{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section-movie h2{
+    font-family: var(--font-title);
+    font-size: var( --font-size-h2);
+    color: var(--color-foreground);
+    font-weight: 400;
+}
+.section-movie h2 span{
+    color: var(--color-brand);
+}
+.container-movies{
+    display: grid;
+    grid-template-columns: repeat(6, max-content);
     gap:20px;
 }
